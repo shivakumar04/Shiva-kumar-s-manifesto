@@ -1,0 +1,148 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set the body font and background color */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding-bottom: 80px; /* Add padding to the bottom of the body to accommodate the footer */
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #007bff;
+    color: #333; /* Change the text color to black */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1, header h2 {
+    margin-bottom: 10px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav ul li {
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style the sections */
+  section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the About Me section */
+  #about-me {
+    background-color: #f8d7da; /* Light red background color */
+  }
+  
+  #about-me img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Style the Goals section */
+  #goals {
+    background-color: #d1ecf1; /* Light blue background color */
+  }
+  
+  /* Style the Why Vote for Me section */
+  #why-vote-for-me {
+    background-color: #d4edda; /* Light green background color */
+  }
+  
+  /* Style the Contact section */
+  #contact {
+    background-color: #fff3cd; /* Light yellow background color */
+    text-align: center;
+    padding-bottom: 80px; /* Add padding to the bottom of the contact section to prevent overlap with the footer */
+  }
+  
+  /* Style the headings */
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  .footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .contact-info img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  /* Style the social media links */
+  .social-media-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-media-links li {
+    margin: 0 10px;
+  }
+  
+  .social-media-links img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Style the LinkedIn and Instagram icons */
+  .fab.fa-linkedin {
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  
+  .fab.fa-instagram {
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  
